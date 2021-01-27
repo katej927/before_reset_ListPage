@@ -1,0 +1,8 @@
+@import "../../../../Styles/common.scss";
+.productcategory {
+  border: 1px solid blue;
+
+  .underClassification {
+    @include flex();
+  }
+}

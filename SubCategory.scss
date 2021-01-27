@@ -1,0 +1,21 @@
+@import "../../../../Styles/common.scss";
+
+.subCategory {
+  border: 1px solid pink;
+
+  select {
+    height: 40px;
+    width: 248px;
+  }
+
+  .subCategoryDiv {
+    @include flex(flex-start, center);
+    height: 58px;
+    background-color: #f4f4f2;
+  }
+
+  .productContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
